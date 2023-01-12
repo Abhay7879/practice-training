@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
@@ -69,7 +68,7 @@ class _MyAppState extends State<MyApp> {
                             prefixIcon: Icon(Icons.email),
                           ),
                           validator:
-                              EmailValidator(errorText: "Enter valid email"),
+                              EmailValidator(errorText: "Enter valid Email"),
                         ),
                         SizedBox(
                           height: 20,
